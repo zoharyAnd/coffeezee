@@ -27,35 +27,26 @@ These instructions will get you a copy of the project up and running on your loc
 * The next step is to: </br> Create a new database in **phpMyAdmin** to store the applications's data.
 * Then create a new folder inside your **www** directory:</br>
   For example: wwww/wordpress
-* Clone the project inside the newly created project directory  
+* Download the **Wordpress starter template** at [Wordpress Download](https://wordpress.org/download/) 
+* Extract the dowloaded .zip file inside the newly created project directory
 
 ### Installation
-To launch the installation, go to your preferred browser and access the project root folder. </br>
-Then follow the wordpress **installation wizard** or change the MySQL settings according to your computer configuration:
+* Access your project root folder within your preferred browser
+* Follow the wordpress **installation wizard** to define your MySQL settings
+* Clone the **CoffeeZee** project
+* Replace the default Wordpress "themes" folder with the CoffeeZee one
 
-In the wp-config.php file
-```
-// ** MySQL settings - You can get this info from your web host ** //
-/** The name of the database for WordPress */
-define( 'DB_NAME', 'wordpress' );
+* Install and activate the following plugins : 
+* [Force Regenerate Thumbnails](https://wordpress.org/plugins/regenerate-thumbnails/)
+* [ACF - Advanced Custom Fields](https://wordpress.org/plugins/advanced-custom-fields/)
 
-/** MySQL database username */
-define( 'DB_USER', 'root' );
-
-/** MySQL database password */
-define( 'DB_PASSWORD', '' );
-
-/** MySQL hostname */
-define( 'DB_HOST', 'localhost' );
-```
-
-You are now ready to navigate through your local site and manipulate the **admin Dashboard**
+You are now ready to navigate through your local **CoffeeZee** site and manipulate the **admin Dashboard**
 
 ## This project was Built With
 
 * [Wordpress](https://wordpress.com/)
-Plugins used includes: 
 
+Plugins used includes: 
 * [Force Regenerate Thumbnails](https://wordpress.org/plugins/regenerate-thumbnails/) - For a consistent image size display through the application
 * [ACF - Advanced Custom Fields](https://wordpress.org/plugins/advanced-custom-fields/) - For implementing custom fields to Custom Posts 
 
