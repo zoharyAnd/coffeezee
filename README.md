@@ -1,6 +1,6 @@
 # CoffeeZee
 
-A coffee recipes library.
+A cocatalogue of coffee recipes.
 
 ## Getting Started
 
